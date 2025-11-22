@@ -4,12 +4,12 @@ const map = L.map('map').setView([-23.620464473249893, -46.72967968674794], 16);
     }).addTo(map);
 
     const iconeVerde = L.icon({
-      iconUrl: '../img/missoes/mis1.png',
+      iconUrl: '/static/img/missoes/mis1.png',
       iconSize: [32, 32],
     });
 
     const iconeLaranja = L.icon({
-      iconUrl: '../img/pontoLaranja.png',
+      iconUrl: '/static/img/pontoLaranja.png',
       iconSize: [32, 32],
       className: 'orange-icon'
     });
